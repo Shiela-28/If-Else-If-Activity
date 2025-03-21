@@ -1,4 +1,4 @@
-let score =(prompt("Enter your score:"));
+let score = prompt("Enter your score:"));
 
 if (score >= 90) {
   console.log("Your grade is: Excellent");
