@@ -1,11 +1,8 @@
-let score = prompt("Enter your score:"));
+// Get score from user input.
+let score = (prompt("Enter your score:"));
 
-if (score >= 90) {
-  console.log("Your grade is: Excellent");
-} else if (score >= 80 && score <= 89) {
-  console.log("Your grade is: Good");
-} else if (score >= 70 && score <= 79) {
-  console.log("Your grade is: Fair");
-} else {
-  console.log("Your grade is: Needs Improvement");
-}
+// Check score and assign grade.
+if (score >= 90) { console.log("Excellent"); }
+else if (score >= 80) { console.log("Good"); }
+else if (score >= 70) { console.log("Fair"); }
+else { console.log("Needs Improvement"); }
